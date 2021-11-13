@@ -6,27 +6,13 @@
 
     <groupId>dad</groupId>
     <artifactId>calculadoraFXML</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>16</source>
-                    <target>16</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-    <name>calculadoraFXML</name>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <junit.version>5.7.1</junit.version>
-        <mainClass>dad.calculadorafxml/dad.calculadorafxml.App</mainClass>
-    </properties>
-    <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-controls -->
+    <version>0.0.1</version>
+        <properties>
+            <maven.compiler.target>11</maven.compiler.target>
+            <maven.compiler.source>11</maven.compiler.source>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            <exec.mainClass>dad.calculadorafxml.App</exec.mainClass>
+        </properties>
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
@@ -39,9 +25,4 @@
             <version>11.0.2</version>
         </dependency>
     </dependencies>
-
-
-
-
-
 </project>
